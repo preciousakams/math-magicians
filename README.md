@@ -1,5 +1,5 @@
 # Math Magicians
-### An app for math lovers.
+### An app for math lovers,where users can make simple calculations and read a random math-related quote...
 ***
 ## Deployed version: []()
 ## Built With
