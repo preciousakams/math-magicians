@@ -49,10 +49,6 @@ body {
   text-align: end;
 }
 
-.divide,
-.multiply,
-.minus,
-.plus,
-.equalTo {
+.orange {
   background-color: orange;
 }
