@@ -1,13 +1,11 @@
-import React, { useState } from 'react';
-import calculate from '../logic/calculate';
+import React from 'react';
 
-function Calculator() {
-  const [data, setData] = useState({
-    total: null,
-    next: null,
-    operation: null,
-  });
-
+class Calculator extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+  
   const handleCalculation = async (e) => {
     const response = await calculate(data, e.target.name);
     setData({
@@ -49,7 +47,7 @@ function Calculator() {
           <div className="equalTo orange"><button type="button" onClick={handleCalculation} name="=">=</button></div>
         </div>
       </div>
-    </div>
-  );
+    );
+  }
 }
 export default Calculator;
