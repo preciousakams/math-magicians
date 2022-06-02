@@ -1,27 +1,72 @@
 body {
-  margin: 0;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: 48px 0;
+}
+
+.calc {
+  border: solid 1px rgb(210, 208, 208);
+  width: 525px;
+}
+
+.display {
+  height: 62px;
+  background-color: rgb(167, 167, 167);
+  color: #fff;
+  font-size: 24px;
+}
+
+.displayCalc {
+  float: right;
+  margin: 0;
+  padding-right: 12px;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto auto;
+}
+
+.grid div {
+  border: solid 0.2px rgb(227, 224, 224);
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.grid .zero {
+  border: transparent;
+  margin: 0;
+  padding: 15px 0 5px 5px;
+  text-align: end;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.grid div button {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.grid .zero button {
+  text-align: end;
+  margin: 0;
+}
+
+.none {
+  color: transparent;
 }
