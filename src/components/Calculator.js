@@ -20,6 +20,11 @@ function Calculator() {
   const { total, next } = data;
   return (
     <div className="container">
+      <div>
+        <h2>
+          Lets do some math!
+        </h2>
+      </div>
       <div className="calc">
         <div className="display">
           <h1 className="displayCalc">
