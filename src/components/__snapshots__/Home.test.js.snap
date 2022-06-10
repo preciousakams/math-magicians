@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render Home page render h2 elemnt content 1`] = `Promise {}`;
+
+exports[`render Home page render p element content 1`] = `Promise {}`;

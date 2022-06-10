@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import calculate from '../logic/calculate';
+import Calculate from '../logic/calculate';
 
 function Calculator() {
   const [data, setData] = useState({
@@ -9,7 +9,7 @@ function Calculator() {
   });
 
   const handleCalculation = async (e) => {
-    const response = await calculate(data, e.target.name);
+    const response = await Calculate(data, e.target.name);
     setData({
       total: response.total,
       next: response.next,
