@@ -1,28 +1,31 @@
 # Math Magicians
 ### An app for math lovers,where users can make simple calculations and read a random math-related quote...
 ***
-## Deployed version: []()
+## Deployed versions
+* [Heroku](https://kamzzy-math-magicians-react.herokuapp.com/)
+* [Netlify](https://ubiquitous-ganache-c317be.netlify.app/)
+ ***
 ## Built With
-* HTML/CSS
 * React
-* Node Js
-## Getting Started
 ***
+## Getting Started
+
 Clone the repository to get a local copy
 From the cloned project directory
-Run `npm install`
+* Run `npm install` to install all dependecies
+* Run `npm start` to render app in your default browser
 
 ### Prerequisites
 * Node.JS
-
-### Author
 ***
+### Author
+
 👤 Onyeagoziri Precious Akams
 
 * GitHub: [@kamzzy](https://github.com/kamzzy)
 * Twitter:[@precious_akams](https://twitter.com/precious_akams)
 * LinkedIn:[Onyeagoziri Akams](https://www.linkedin.com/in/onyeagoziri-akams/)
-
+***
 ### 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
