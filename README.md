@@ -3,7 +3,7 @@
 ***
 ## Deployed versions
 * [Heroku](https://kamzzy-math-magicians-react.herokuapp.com/)
-* [Netlify](https://ubiquitous-ganache-c317be.netlify.app/)
+* [Netlify](https://kamzzy-math-magician.netlify.app/)
  ***
 ## Built With
 * React
