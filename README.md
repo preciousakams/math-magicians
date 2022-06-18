@@ -1,5 +1,5 @@
 # Math Magicians
-### An app for math lovers,where users can make simple calculations and read a random math-related quote...
+### An app for math lovers, where users can make calculations and get motivated by random math-related quotes.
 ***
 ## Deployed versions
 * [Heroku](https://kamzzy-math-magicians-react.herokuapp.com/)
