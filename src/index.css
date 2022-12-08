@@ -18,6 +18,11 @@ body {
   width: 525px;
 }
 
+.quote {
+  width: 50%;
+  height: 100%;
+}
+
 .display {
   height: 62px;
   background-color: rgb(126, 6, 126);
@@ -108,14 +113,12 @@ body {
   font-weight: bolder;
 }
 
-.quoteDiv h2 {
+.quoteDiv {
   text-align: center;
   margin: 5%;
   color: #fff;
 }
 
 p {
-  color: white;
-  font-size: 1.8rem;
-  margin: 2%;
+  font-style: italic;
 }
