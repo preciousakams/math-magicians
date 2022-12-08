@@ -3,7 +3,6 @@ import {
   BrowserRouter, NavLink, Link, Route, Routes,
 } from 'react-router-dom';
 import Calculator from './components/Calculator';
-// import Home from './components/Home';
 import Quotes from './components/Quotes';
 
 class App extends React.Component {
@@ -27,13 +26,9 @@ class App extends React.Component {
               <li className="border right">
                 <NavLink to="/">Calculator</NavLink>
               </li>
-              {/* <li className="border right">
-                <NavLink to="/">Home</NavLink>
-              </li> */}
             </ul>
           </div>
           <Routes>
-            {/* <Route path="/" element={<Home />} /> */}
             <Route path="/" element={<Calculator />} />
             <Route path="/quote" element={<Quotes />} />
           </Routes>
